@@ -160,7 +160,7 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 | Degree | Institution | Year |
 |---|---|---|
 | 🎓 MSc Mathematical Engineering | University of L'Aquila, Italy | Sep 2022 |
-| 🎓 BSc Mathematics | University of Energy and Natural Resources, Ghana | — |
+| 🎓 BSc Mathematics | University of Energy and Natural Resources, Ghana | Aug 2019 |
 
 *Advanced studies in quantitative modelling, statistical methods, computational mathematics, and complex data structures.*
 
