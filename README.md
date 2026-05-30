@@ -21,7 +21,7 @@
 
 ## 🧠 About Me
 
-Results-driven data analyst with an **MSc in Mathematical Engineering** and hands-on experience delivering end-to-end BI and analytics projects across **e-commerce, SaaS, retail, and streaming media**. Proficient across the full analytics pipeline — advanced SQL database auditing, Python data engineering, and interactive Power BI dashboard development.
+Results-driven data analyst with an **MSc in Mathematical Engineering** and hands-on experience delivering end-to-end BI and analytics projects across **e-commerce, SaaS, retail, and streaming media**. Proficient across the full analytics pipeline. Advanced SQL database auditing, Python data engineering, and interactive Power BI dashboard development.
 
 I translate complex technical findings into clear, actionable executive insights for non-technical stakeholders, backed by a strong compliance and data governance background from **Amazon**.
 
