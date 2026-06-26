@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Augustine Cudjoe 👋</h1>
 
 <p align="center">
-  <strong>Junior Data Analyst · BI Analyst · Data Engineer</strong><br/>
+  <strong>Data Analyst · BI Analyst · Data Engineer</strong><br/>
   📍 Italy &nbsp;|&nbsp; 🌍 Open to Remote &nbsp;|&nbsp; 📧 auguscudjoe94@gmail.com
 </p>
 
