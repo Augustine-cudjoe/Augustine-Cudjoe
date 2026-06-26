@@ -73,6 +73,22 @@ I translate complex technical findings into clear, actionable executive insights
 
 ## 📊 Data Analytics Projects
 
+### 🛍️ Customer Shopping Behavior Analysis
+> **Tools:** Python · MySQL · Power BI · pandas · matplotlib · seaborn · SQLAlchemy
+
+A retail business needed to understand what was driving (and limiting) revenue across 3,900 customer transactions — with no clear view of which segments, products, or behaviours mattered most.
+
+- Built a **full end-to-end analytics pipeline**: Python cleaning → MySQL analysis → Power BI dashboard
+- Engineered two new features: `age_group` (binned from raw age) and `purchase_frequency_days` — imputed 37 missing review ratings using per-category median to preserve distribution integrity
+- Answered **10 structured business questions** using advanced SQL (window functions, CTEs, subqueries, aggregations)
+- 🚨 Revealed that **male customers generate 2.1× more revenue** than female ($157,890 vs $75,191) — a major segmentation opportunity
+- 📋 Uncovered a **subscription monetisation failure**: subscribers spend no more per transaction than non-subscribers ($59.49 vs $59.87), exposing a gap in loyalty programme design
+- 🏷️ Flagged **aggressive discount dependency** on top products (Hat 50%, Sneakers 49.66%, Coat 49.07%) — a structural margin risk requiring immediate pricing review
+- 👥 Identified that **72% of repeat buyers (>5 purchases) are non-subscribers** — the single highest-value conversion opportunity in the dataset
+- Delivered a **6-visual interactive Power BI dashboard** with dynamic slicers for Gender, Category, Subscription Status, and Shipping Type
+
+---
+
 ### 🏪 Business Intelligence Dashboard — TechHub Retail
 > **Tools:** SQL · Python · Power BI · DAX · Star Schema · Power Query
 
@@ -173,7 +189,8 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 - 📊 Built **12 custom DAX measures** and a 6-visual interactive Power BI dashboard evaluating a 12,000-row retail operation
 - 🎯 Isolated **19 high-risk churn profiles** (probabilities 0.71–0.93) protecting £198 in immediate monthly recurring revenue
 - 📉 Proved a **-0.02 discount correlation** vs. quantity sold, delivering a pricing restructure recommendation to protect margins
-- 📝 Authored **4 executive-standard business reports** (averaging 10 pages) covering structural data risks and strategic visual storytelling
+- 🛍️ Uncovered that **72% of repeat buyers are non-subscribers** across 3,900 transactions — the highest-value conversion opportunity in the dataset
+- 📝 Authored **5 executive-standard business reports** (averaging 10 pages) covering structural data risks and strategic visual storytelling
 
 ---
 
