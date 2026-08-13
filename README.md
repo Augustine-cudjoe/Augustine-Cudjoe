@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Data Analyst · BI Analyst · Data Engineer</strong><br/>
-  📍 Italy &nbsp;|&nbsp; 🌍 Open to Remote &nbsp;|&nbsp; 📧 auguscudjoe94@gmail.com
+  📍 Malta &nbsp;|&nbsp; 🌍 Open to Remote &nbsp;|&nbsp; 📧 auguscudjoe94@gmail.com
 </p>
 
 <p align="center">
@@ -21,9 +21,9 @@
 
 ## 🧠 About Me
 
-Results-driven data analyst with an **MSc in Mathematical Engineering** and hands-on experience delivering end-to-end BI and analytics projects across **e-commerce, SaaS, retail, and streaming media**. Proficient across the full analytics pipeline. Advanced SQL database auditing, Python data engineering, and interactive Power BI dashboard development.
+Results-driven data analyst with an **MSc in Mathematics** and hands-on experience delivering end-to-end BI and analytics projects across **e-commerce, SaaS, retail, and streaming media**. Proficient across the full analytics pipeline: SQL database auditing, Python data engineering, statistical analysis, and interactive Power BI dashboard development.
 
-I translate complex technical findings into clear, actionable executive insights for non-technical stakeholders, backed by a strong compliance and data governance background from **Amazon**.
+I translate complex technical findings into clear, actionable executive insights for non-technical stakeholders, backed by a strong compliance and data governance background from **Amazon**. I also build AI-assisted analytics workflows, connecting AI directly to SQL, Excel, and Power BI to speed up modelling and reporting.
 
 ---
 
@@ -37,6 +37,8 @@ I translate complex technical findings into clear, actionable executive insights
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 **BI & Visualisation**
 
@@ -46,12 +48,18 @@ I translate complex technical findings into clear, actionable executive insights
 ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=python&logoColor=white)
 ![seaborn](https://img.shields.io/badge/seaborn-4C72B0?style=flat&logo=python&logoColor=white)
 
-**Machine Learning**
+**Statistics & Machine Learning**
 
+![A/B Testing](https://img.shields.io/badge/A%2FB_Testing-6A5ACD?style=flat)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EC4E20?style=flat&logo=python&logoColor=white)
 ![Random Forest](https://img.shields.io/badge/Random_Forest-228B22?style=flat&logo=python&logoColor=white)
 ![SMOTE](https://img.shields.io/badge/SMOTE-8B008B?style=flat&logo=python&logoColor=white)
 ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-2C6FAC?style=flat&logo=python&logoColor=white)
+
+**AI & Automation**
+
+![AI Workflows](https://img.shields.io/badge/AI--Assisted_Workflows-10A37F?style=flat)
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-000000?style=flat)
 
 **Frontend**
 
@@ -68,10 +76,25 @@ I translate complex technical findings into clear, actionable executive insights
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat)
 
 ---
 
 ## 📊 Data Analytics Projects
+
+### 🚴 Cyclistic Bike-Share Analytics Case Study
+> **Tools:** Python · pandas · SQL (SQLite & MySQL) · Power BI · DAX · Star Schema
+
+A full-pipeline case study (Google Data Analytics Capstone) analysing 84,776 Chicago Divvy bike-share rides to answer: how do annual members and casual riders actually use the system differently?
+
+- Built a complete pipeline: **Python/pandas notebook → audited SQL warehouse (SQLite & MySQL) → star-schema Power BI dashboard**, computing key metrics three independent ways so results could be cross-checked against each other
+- Applied a transparent **"flag, don't drop"** data quality approach across 6 flag categories — every excluded row stays auditable, not silently deleted
+- **Caught and fixed a real pipeline bug**: when SQL and notebook averages didn't match, traced the discrepancy to a missing flag in the SQL loader, fixed it at the source, and reconciled all three surfaces (SQLite, MySQL, Power BI) until they agreed exactly
+- Found casual riders take **2.2× longer rides** (39.5 vs. 18.2 min) and are **44.7% weekend-concentrated** vs. 33.1% for members — a different daily rhythm too (member peak 5pm rush hour, casual peak 2pm leisure plateau)
+- Delivered a **3-page interactive Power BI dashboard** plus a full written case study report with evidence-based, appropriately-hedged recommendations (framed as testable hypotheses, not guaranteed outcomes)
+- 🔗 [Full repo, dashboard, and report](https://github.com/Augustine-cudjoe/cyclistic-bike-share-analysis)
+
+---
 
 ### 🛍️ Customer Shopping Behavior Analysis
 > **Tools:** Python · MySQL · Power BI · pandas · matplotlib · seaborn · SQLAlchemy
@@ -141,6 +164,15 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 
 ---
 
+## 🤖 AI & Automation Project
+
+### AI-Assisted Data Reporting Workflow
+> **Tools:** Power BI · SQL · Excel · MCP (Model Context Protocol)
+
+Connected AI directly to Power BI, SQL, and Excel using MCP to automate dashboard design, DAX measure creation, and code generation, reducing manual reporting effort while independently verifying every AI-generated output against ground-truth SQL results before using it.
+
+---
+
 ## 🚀 Other Projects
 
 | Project | Description | Tech |
@@ -155,11 +187,14 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 
 ## 💼 Work Experience
 
-### 🔬 Data Analytics Intern — Uptrail *(Remote · Mar 2026 – May 2026)*
-- Intensive professional analytics program covering advanced SQL queries, structured Python data pipelines, business dashboard engineering, and executive presentation standards.
+### 💻 Data Analyst — Jomacs *(Remote, Contract · May 2026 – Present)*
+- Contract-based data analyst using SQL, Python, Power BI, and Excel to support business reporting and analysis
+- Apply AI tools as part of the regular workflow to speed up analysis, reporting, and documentation
+
+### 🔬 Data Analytics Intern — Uptrail *(Remote · Mar 2026 – Jul 2026)*
+- Intensive professional analytics program covering advanced SQL queries, structured Python data pipelines, business dashboard engineering, and executive presentation standards
 
 ### 🏢 Senior Compliance Associate — Amazon *(Katowice, Poland · Sept 2022 – Dec 2022)*
-- Utilized ASINs to perform deep-dive **product classifications** and ensure data catalog integrity across high-volume inventories
 - Audited large volumes of structured organizational data to identify compliance risks, flag data anomalies, and escalate high-priority irregularities
 - Authored weekly **data-driven compliance summary reports** for senior leadership, translating complex regulatory findings into non-technical executive actions
 - Collaborated cross-functionally with operations and legal teams to define, standardize, and enforce **data governance and documentation protocols**
@@ -171,26 +206,28 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 
 ---
 
-## 🎓 Education
+## 🎓 Education & Certifications
 
-| Degree | Institution | Year |
+| Qualification | Institution | Year |
 |---|---|---|
-| 🎓 MSc Mathematical Engineering | University of L'Aquila, Italy | Sep 2022 |
+| 🎓 MSc Mathematics (Applied and Interdisciplinary Mathematics) | University of Silesia, Poland & University of L'Aquila, Italy (double degree) | Sept 2022 |
 | 🎓 BSc Mathematics | University of Energy and Natural Resources, Ghana | Aug 2019 |
+| 📜 AI for Data Analytics | Coursera | Aug 2026 |
 
-*Advanced studies in quantitative modelling, statistical methods, computational mathematics, and complex data structures.*
+*Coursework and thesis work spanning probability, statistical inference, linear algebra, and calculus; used R for statistical analysis.*
 
 ---
 
 ## 🏆 Key Achievements
 
 - 💰 **Restored £86K** in missing e-commerce revenue data by catching a 521-row database import failure before analysis began
+- 🔍 **Caught and fixed a cross-tool data discrepancy** in the Cyclistic project — traced a pipeline bug at its root cause and re-verified results across Python, SQL, and Power BI until all three agreed exactly
 - 📈 **Raised churn recall from 0% → 60%** by implementing class-balancing algorithms on heavily skewed subscriber data
 - 📊 Built **12 custom DAX measures** and a 6-visual interactive Power BI dashboard evaluating a 12,000-row retail operation
 - 🎯 Isolated **19 high-risk churn profiles** (probabilities 0.71–0.93) protecting £198 in immediate monthly recurring revenue
 - 📉 Proved a **-0.02 discount correlation** vs. quantity sold, delivering a pricing restructure recommendation to protect margins
 - 🛍️ Uncovered that **72% of repeat buyers are non-subscribers** across 3,900 transactions — the highest-value conversion opportunity in the dataset
-- 📝 Authored **5 executive-standard business reports** (averaging 10 pages) covering structural data risks and strategic visual storytelling
+- 📝 Authored **6 executive-standard business reports and case studies** covering structural data risks and strategic data storytelling
 
 ---
 
@@ -204,6 +241,6 @@ High monthly subscriber attrition (23.1%) was driving £3.37K in monthly recurri
 ---
 
 <p align="center">
-  <em>Open to data analyst, BI analyst, and analytics engineering roles — remote or Italy-based.</em><br/>
+  <em>Open to data analyst, BI analyst, and analytics engineering roles — remote, hybrid, or Malta-based.</em><br/>
   <strong>Let's connect and build something data-driven together.</strong>
 </p>
